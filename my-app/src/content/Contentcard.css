@@ -1,0 +1,8 @@
+.Contencard{
+
+}
+.Contencard>img{
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
+}
