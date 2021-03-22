@@ -1,0 +1,12 @@
+.Content{
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.row{
+    padding: 3px;
+    margin: 10px;
+}
+h2{
+    margin: 5px;
+}

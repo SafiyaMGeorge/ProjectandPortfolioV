@@ -1,0 +1,50 @@
+.header{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content:space-between;
+}
+#headerRight{
+    display: flex;
+}
+.icons{
+    padding: 0px 5px;
+}
+.icons:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #4AA2B8;
+    transform: scale(1.1);
+    transition: .5s ease-out;
+}
+#headerMiddle{
+    min-width: 600px;
+   min-height: 38px;
+    border: solid 1px black;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 1px;
+}
+.search{
+    width: 35rem;
+    height: 2rem;
+    border-radius:20px;
+    border:none;
+}
+button{
+    margin-right:5px;
+    border-radius:20px;
+    border: none;
+    background-color: #FFFFFF;
+}
+button:hover{
+    cursor: pointer;
+}
+.heaederLeft{
+
+}
+#headerLeft:hover{
+cursor:default;
+}
