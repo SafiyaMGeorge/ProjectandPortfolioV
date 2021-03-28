@@ -1,0 +1,21 @@
+.Search{
+    width: 35rem;
+    height: 2rem;
+    min-width: 600px;
+   min-height: 38px;
+    border: solid 1px black;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 1px;
+}
+input{
+    border:none;
+    width: 90%;
+    height: 100%;
+   border-radius: 20px;
+}
+input:active{
+    border: none;
+}

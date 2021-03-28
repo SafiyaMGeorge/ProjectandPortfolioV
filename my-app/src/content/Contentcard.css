@@ -7,6 +7,10 @@
     align-items: center;
 }
 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     border: solid 1px white;
     padding: 3px;
     margin: 10px;
@@ -19,4 +23,19 @@ article:hover{
     cursor: pointer;
     transform: scale(1.1);
     transition: .5s ease-out;
+    
+}
+p{
+    color: #FFFFFF;
+    padding-bottom: 3%;
+}
+.moviePoster{
+    display: flex;
+    justify-content: center;
+    height: 95%;
+}
+.moviePoster img{
+    width: 85%;
+    height: 85%;
+    padding-top: 3%;
 }

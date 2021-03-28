@@ -1,6 +1,5 @@
-import { Button } from 'bootstrap';
 import React from 'react'
-import { FaSearch } from 'react-icons/fa';
+import Search from '../search/Search'
 import { FaBell } from 'react-icons/fa';
 import { FaUserCircle } from 'react-icons/fa';
 import "./Header.css"
@@ -11,10 +10,7 @@ function Header() {
                 <h1>ChillSpot</h1>
             </section>
             <section id="headerMiddle">
-                <button>
-                <FaSearch className="icon"/>
-                </button>
-                <input type="text" className="search"/>
+                <Search />
             </section>
             <section id="headerRight">
                 <div className="icons">
